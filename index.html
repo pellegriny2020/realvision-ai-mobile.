@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#090b16"><meta name="description" content="REALVISION AI — crie vídeos a partir de texto.">
+<link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="style.css">
+<title>REALVISION AI</title>
+</head>
+<body>
+<header><div class="logo"><span>RV</span><div><b>REALVISION <i>AI</i></b><small>AI VIDEO STUDIO</small></div></div><button id="install" class="small" hidden>Instalar</button></header>
+<main>
+<section class="intro"><div class="tag">✦ CRIAÇÃO DE VÍDEOS COM IA</div><h1>Sua imaginação.<br><span>Em movimento.</span></h1><p>Escreva uma ideia e transforme-a em uma cena.</p></section>
+<section class="card">
+<label for="prompt">O que deseja criar?</label>
+<textarea id="prompt" maxlength="2500" placeholder="Ex.: Um cavalo branco correndo livremente em uma praia ao pôr do sol, ondas suaves, câmera cinematográfica, realismo extremo..."></textarea>
+<div class="row"><label for="format">Formato do vídeo</label><select id="format"><option value="9:16">Vertical — Reels / TikTok</option><option value="16:9">Horizontal — YouTube</option><option value="1:1">Quadrado</option></select></div>
+<div class="row"><label for="duration">Duração desejada</label><select id="duration"><option value="5">5 segundos</option><option value="3">3 segundos</option><option value="8">8 segundos</option></select></div>
+<div class="row"><label for="style">Estilo visual</label><select id="style"><option>Ultra-realista cinematográfico</option><option>Documentário realista</option><option>Fantasia cinematográfica</option><option>Animação 3D</option></select></div>
+<button id="generate" class="generate">✦ GERAR MEU VÍDEO</button>
+<p id="notice" class="notice">A geração será ativada quando um provedor de IA gratuito estiver configurado.</p>
+</section>
+<section class="card history"><div class="history-title"><h2>Minhas criações</h2><button id="clear" class="textbtn">Limpar</button></div><div id="historyList" class="empty">Seus vídeos e pedidos aparecerão aqui.</div></section>
+</main>
+<footer>REALVISION AI <span>•</span> Criatividade sem limites</footer>
+<script src="app.js"></script>
+</body></html>

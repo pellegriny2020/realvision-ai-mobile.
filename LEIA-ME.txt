@@ -1,0 +1,12 @@
+REALVISION AI MOBILE — protótipo PWA
+
+Esta versão contém interface móvel, opções de formato/estilo/duração, histórico local e suporte básico a instalação PWA.
+
+IMPORTANTE: o botão atual salva a descrição no histórico. Ele NÃO gera um vídeo real ainda. Para gerar vídeos, será necessário integrar um serviço/modelo de IA que aceite texto e disponibilize uma API ou execução em servidor. Não há garantia de cotas gratuitas ou geração ilimitada.
+
+COMO PUBLICAR:
+1. Hospede os arquivos em um site com HTTPS (por exemplo, GitHub Pages ou outro host estático).
+2. Abra o endereço no Chrome Android.
+3. Use o menu do Chrome > Adicionar à tela inicial / Instalar app.
+
+Para ativar geração real, escolheremos depois um provedor com plano/cota gratuita vigente e implementaremos a integração com chave protegida no servidor. Nunca coloque chaves secretas no JavaScript do navegador.
